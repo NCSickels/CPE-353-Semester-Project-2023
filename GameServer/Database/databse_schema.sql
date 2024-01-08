@@ -1,0 +1,10 @@
+CREATE TABLE entities (
+	EID INTEGER PRIMARY KEY,
+	x INTEGER,
+	y INTEGER,
+	type INTEGER,
+	HP INTEGER,
+	state INTEGER
+	
+);
+

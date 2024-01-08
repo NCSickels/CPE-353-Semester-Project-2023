@@ -1,0 +1,116 @@
+ 
+                                  ******************************************************
+                                  ******                                          ******
+                                  ******   LDRA Testbed (R) Test Manager Report   ******
+                                  ******                                          ******
+                                  ******         Set : gameserver-Static          ******
+                                  ******                                          ******
+                                  ******************************************************
+
+
+      Report Production
+      -----------------
+         * C/C++ LDRA Testbed Version: 9.8.2
+         * Report Produced On:  Sun Dec  3 2023 at 16:23:03
+
+      Report Configuration
+      --------------------
+         * Report Format: By Result                 * Reporting Scope: Source file and associated header
+
+
+
+           ------------------------------------------------------------
+
+ 
+                                                 ************************
+                                                 *                      *
+                                                 *  Code Review Report  *
+                                                 *                      *
+                                                 ************************
+
+       ===========================================================================================
+                              QUALITY RESULT       ------ NUMBER    OF UNIQUE       VIOLATIONS ------
+                                                   % IN FUNCTION  # IN FUNCTION     BREAKDOWN     
+       ===========================================================================================
+
+       gameserver-Static (Set: 18 Files)
+                              Fail                 Funcs - 113    Number -  104       71-M  33-C  
+
+
+       qrc_sprites.cpp        Fail                    4  #        Number - 4          4-M  
+       qrc_spriteresource.cpp Fail                    4  #        Number - 4          4-M  
+       qrc_gameover.cpp       Fail                    4  #        Number - 4          4-M  
+       moc_sidescrollentity.cpp
+                              Fail                    5  #        Number - 5          5-C  
+       moc_mainwindow.cpp     Fail                    7  #        Number - 7          2-M  5-C  
+       sidescrollscene.cpp    Pass                    0                               
+       sidescrollentity.cpp   Fail                    8  #        Number - 8          5-M  3-C  
+       projectile.cpp         Pass                    0                               
+       player.cpp             Fail                    3  #        Number - 3          3-M  
+       mainwindow.cpp         Fail                   12  ##       Number - 12         11-M  1-C  
+       main.cpp               Fail                    1  #        Number - 1          1-M  
+       entityanimation.cpp    Fail                    3  #        Number - 3          3-M  
+       enemies.cpp            Pass                    0                               
+       mytcpserver.cpp        Fail                    2  #        Number - 2          2-M  
+       main.cpp               Fail                    1  #        Number - 1          1-M  
+       gameserverdialog.cpp   Fail                   33  ####     Number - 34         27-M  7-C  
+       moc_mytcpserver.cpp    Fail                    9  #        Number - 9          2-M  7-C  
+       moc_gameserverdialog.cpp
+                              Fail                    7  #        Number - 7          2-M  5-C  
+
+
+
+           ------------------------------------------------------------
+
+ 
+                                               ***************************
+                                               *                         *
+                                               *  Quality Review Report  *
+                                               *                         *
+                                               ***************************
+
+       ===============================================================================================
+                               TESTABILITY         MAINTAINABILITY     CLARITY             ALL METRICS
+       ===============================================================================================
+
+
+       gameserver-Static (Set: 18 Files)
+                                 96  ##########      99  ##########      70  ########        87  #########
+
+
+       qrc_sprites.cpp          100  ###########    100  ###########     57  ######          80  #########
+       qrc_spriteresource.cpp   100  ###########    100  ###########     64  #######         82  #########
+       qrc_gameover.cpp         100  ###########    100  ###########     64  #######         84  #########
+       moc_sidescrollentity.cpp
+                                 92  ##########     100  ###########     79  ########        91  ##########
+       moc_mainwindow.cpp        85  #########       91  ##########      79  ########        89  #########
+       sidescrollscene.cpp      100  ###########    100  ###########     64  #######         86  #########
+
+       sidescrollentity.cpp      92  ##########     100  ###########     86  #########       93  ##########
+       projectile.cpp           100  ###########    100  ###########     64  #######         86  #########
+       player.cpp               100  ###########    100  ###########     64  #######         86  #########
+       mainwindow.cpp           100  ###########    100  ###########     93  ##########      93  ##########
+       main.cpp                 100  ###########    100  ###########     64  #######         86  #########
+       entityanimation.cpp       92  ##########     100  ###########     64  #######         84  #########
+       enemies.cpp              100  ###########    100  ###########     71  ########        89  #########
+       mytcpserver.cpp          100  ###########    100  ###########     64  #######         87  #########
+       main.cpp                 100  ###########    100  ###########     64  #######         87  #########
+       gameserverdialog.cpp      87  #########      100  ###########     79  ########        87  #########
+
+       moc_mytcpserver.cpp       93  ##########     100  ###########     71  ########        85  #########
+       moc_gameserverdialog.cpp
+                                 93  ##########     100  ###########     71  ########        87  #########
+
+
+
+           ------------------------------------------------------------
+
+                              ===========================================================
+                              *                                                         *
+                              *               End of Test Manager Report                *
+                              *                                                         *
+                              *  Copyright (C) 2019 Liverpool Data Research Associates  *
+                              *                                                         *
+                              ===========================================================
+
+
